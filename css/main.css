@@ -1,1 +1,59 @@
-/*Add your CSS*/
+.box-1,
+.box-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#1dc3b5, rgb(33, 255, 218));
+}
+
+.box-2 {
+    background-image: linear-gradient(#1dc339, rgb(33, 255, 244));
+    height: auto;
+    display: none;
+}
+
+.box-2 h2 {
+    color: white;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+#map {
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+}
+
+.col-sm-12 restaurantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+}
+.filtrar{
+  background-color:black;
+  color:white;
+}
